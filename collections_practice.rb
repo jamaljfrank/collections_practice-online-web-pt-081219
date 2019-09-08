@@ -10,4 +10,4 @@ end
 def sort_array_char_count(array)
   array.each do |word| word.length.sort
 end
-
+end
