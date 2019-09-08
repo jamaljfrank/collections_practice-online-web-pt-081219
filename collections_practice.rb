@@ -18,6 +18,6 @@ def swap_elements(array)
 end
 
 def reverse_array(num)
-  array.sort do |a, b| b <=> a
+  num.sort do |a, b| b <=> a
 end
 end
