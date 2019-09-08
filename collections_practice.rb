@@ -8,8 +8,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  new = []
-  array.each do |word| new << word.length.sort
+  array.sort do |a, b| a.length <=> b.length 
 end
-new
-end
+
+  
+  
