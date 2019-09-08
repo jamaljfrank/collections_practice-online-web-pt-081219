@@ -37,8 +37,8 @@ end
 
 def add_s(array)
   new = []
-  new << array[1]
   new << array[0] + "s"
+  new << array[1]
   new << array[2] + "s"
   new << array[3] + "s"
   new
