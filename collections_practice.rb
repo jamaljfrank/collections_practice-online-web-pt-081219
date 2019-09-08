@@ -30,6 +30,7 @@ def find_a(array)
   array.find_all {|string| string.start_with? ("a")}
 end
 
+
   
   
   
