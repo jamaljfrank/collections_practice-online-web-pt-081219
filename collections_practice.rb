@@ -20,3 +20,4 @@ end
 def reverse_array(num)
   array.sort do |a, b| b <=> a
 end
+end
