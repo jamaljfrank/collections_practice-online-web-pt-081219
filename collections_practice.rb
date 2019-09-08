@@ -22,7 +22,10 @@ def reverse_array(num)
 end
 
 def kesha_maker(array)
-  array[]
+  array[2] = "$"
+  array
+end
+
   
   
   
