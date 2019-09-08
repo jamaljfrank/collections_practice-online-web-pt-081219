@@ -32,7 +32,7 @@ end
 
 def sum_array(array)
   # array.reduce(:+)
-  array.inject(0){|a,b| a + b }
+  array.inject {|a,b| a + b }
 end
   
   
