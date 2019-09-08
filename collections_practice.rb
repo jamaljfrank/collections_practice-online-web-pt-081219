@@ -36,7 +36,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new = []
+  new = array
   new << array[0] + "s"
   new << array[2] + "s"
   new << array[3] + "s"
