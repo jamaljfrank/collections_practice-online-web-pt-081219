@@ -13,7 +13,7 @@ end
 end
 
 def swap_elements(array)
-  
+  array.swap
 end
 
   
